@@ -11,15 +11,15 @@ function App() {
   return (
     <div className=" flex flex-col items-center justify-center h-screen">
       <div className="absolute z-20  -top-44 flex w-full justify-between">
-        <img src={Lighting} className=" relative top-0 w-[35%] -left-36 rotate-[270deg] z-20 " alt="" />
+        <img src={Lighting} className=" relative top-0 w-[30%] -left-36 rotate-[270deg] z-20 " alt="" />
         <img src={Particles} className=" hidden lg:flex absolute w-[400px] top-32 -left-28 " alt="" />
         <img src={Particles} className="hidden lg:flex absolute w-[400px] top-32 right-0 rotate-[100deg]" alt="" />
-        <img src={Lighting} className=" relative top-0 w-[35%]  -right-36 z-20" alt="" />
+        <img src={Lighting} className=" relative top-0 w-[30%]  -right-36 z-20" alt="" />
 
       </div>
       <div className="absolute items-center w-full justify-center z-10  top-0 flex">
-        <img src="bg2.png" alt="" className="lg:w-1/2 w-screen" />
-        <img src="bg2.png" alt="" className="w-1/2 hidden lg:flex " />
+        <img src="bg.png" alt="" className="lg:w-1/2 w-screen" />
+        <img src="bg.png" alt="" className="w-1/2 hidden lg:flex " />
 
       </div>
 

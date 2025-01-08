@@ -20,8 +20,8 @@ function Dashboard() {
 
   return (
     <div className="w-full">
-      <div className="w-[100%] flex flex-1 bg-black/40 rounded-lg backdrop-blur-xl">
-        <aside id="separator-sidebar" className={`w-[40%] bg-black/30 backdrop-blur-md`} aria-label="Sidebar">
+      <div className="w-[100%] flex flex-1 bg-[#ffffff0e] rounded-lg backdrop-blur-xl">
+        <aside id="separator-sidebar" className={`w-[40%]`} aria-label="Sidebar">
 
           <div className="h-full px-3 py-4 overflow-y-auto space-y-3">
 
