@@ -51,11 +51,11 @@ function App() {
           </div>
 
           <div>
-            <h1 className="text-[#AAAAAA] font-semibold text-[50px] w-[60%]">
+            <h1 className="text-[#fff] font-semibold text-[50px] w-[60%]">
               Mange your team
               form one place
             </h1>
-            <p className="text-[#5E5E5E] font-semibold text-[14px] w-[60%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            <p className="text-[#bdbcbc] font-semibold text-[14px] w-[60%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore</p>
           </div>
 
@@ -96,13 +96,13 @@ function App() {
             </div>
           </div>
           <div>
-            <h1 className="text-[#A5A5A5] text-[16px] font-semibold w-max mb-1">30 Day Free Trail No Credit Card Required</h1>
+            <h1 className="text-[#f4f2f2] text-[16px] font-semibold w-max mb-1">30 Day Free Trail No Credit Card Required</h1>
             <div className="bg-black/30  flex backdrop-blur-lg rounded-3xl border border-white">
             <input type="text" className="bg-transparent border-none w-max" placeholder='Enter your email address' />
             <button className="text-[#6D6D6] text-[16px] font-semibold flex flex-1 bg-white p-4 rounded-3xl">Sign Up-It's free</button>
 
             </div>
-            <p className="text-[#676767] mt-2  pl-2 text-[12px] w-full font-semibold">*You will be subscribe to our newsletter</p>
+            <p className="text-[#959494] mt-2  pl-2 text-[12px] w-full font-semibold">*You will be subscribe to our newsletter</p>
 
           </div>
 

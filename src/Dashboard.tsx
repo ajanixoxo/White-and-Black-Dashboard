@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { LayoutGrid, ChevronLeft, Layers, Calendar, MessageCircleMore, FileText, CircleUser, Mail, Settings, BellDot, Plus, AlignCenter, Filter, Search, ArrowDownNarrowWide } from 'lucide-react'
+import { LayoutGrid, ChevronLeft, Layers, Calendar, MessageCircleMore, FileText, CircleUser, Mail,  Plus, AlignCenter, Filter, Search, ArrowDownNarrowWide } from 'lucide-react'
 import Ade from '/ade.jpg';
 function Dashboard() {
 
@@ -19,7 +19,7 @@ function Dashboard() {
 
 
   return (
-    <div className="w-full border border-[#303030]  rounded-2xl">
+    <div className="w-full border-[1.4px] border-[#313131]   rounded-2xl">
       <div className="w-[100%] flex flex-1 bg-[#ababab0e] rounded-2xl backdrop-blur-xl">
         <aside id="separator-sidebar" className={`w-[25%]`} aria-label="Sidebar">
 
@@ -135,7 +135,7 @@ function Dashboard() {
           </div>
 
         </aside>
-        <div className="w-[1px] left-56 h-full absolute bg-white/5 backdrop-blur-xl "></div>
+        <div className="w-[1.4px] left-56 h-full absolute bg-[#313131]  "></div>
         <div className="w-full mt-2 p-2 ">
           <nav className="flex justify-between items-center">
             <h1 className="text-[#B0B0B0] font-semibold text-[14px]">Overview</h1>
@@ -177,37 +177,37 @@ function Dashboard() {
           <div className="mt-10">
 
             <div>
-              <h1 className="text-[#B0B0B0] font-semibold text-[19px]">Welcome Back Adeoluwa!</h1>
-              <p className="text-[#505050] font-semibold text-[9px]">Manage your daily task, monitor progress</p>
+              <h1 className="text-[#ffff] font-semibold text-[19px]">Welcome Back Adeoluwa!</h1>
+              <p className="text-[#939393] font-semibold text-[12px]">Manage your daily task, monitor progress</p>
             </div>
 
             <div className="grid grid-cols-1 mt-5 sm:grid-cols-2 md:grid-cols-4 gap-6">
 
               <div className="border p-2 w-auto border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="text-[#525252] font-semibold text-[10px]">Active Projects</p>
+                <p className="text-[#b7b7b7] font-semibold text-[10px]">Active Projects</p>
 
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">24</h1>
-
-              </div>
-
-              <div className="border p-2 border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="text-[#525252] font-semibold text-[10px]">Active Employees</p>
-
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">132</h1>
+                <h1 className="text-[#ffff] font-semibold text-[24px]">24</h1>
 
               </div>
 
               <div className="border p-2 border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="text-[#525252] font-semibold text-[10px]">Pending Tasks</p>
+                <p className="text-[#b7b7b7] font-semibold text-[10px]">Active Employees</p>
 
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">28.31%</h1>
+                <h1 className="text-[#ffff] font-semibold text-[24px]">132</h1>
 
               </div>
 
               <div className="border p-2 border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="text-[#525252] font-semibold text-[10px]">Completed Task</p>
+                <p className="text-[#b7b7b7] font-semibold text-[10px]">Pending Tasks</p>
 
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">72.45%</h1>
+                <h1 className="text-[#ffff] font-semibold text-[24px]">28.31%</h1>
+
+              </div>
+
+              <div className="border p-2 border-[#222222] space-y-5 rounded-md bg-transparent">
+                <p className="text-[#b7b7b7] font-semibold text-[10px]">Completed Task</p>
+
+                <h1 className="text-[#ffff] font-semibold text-[24px]">72.45%</h1>
 
               </div>
 
@@ -248,7 +248,7 @@ function Dashboard() {
             <div className="grid grid-cols-1 mt-16 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
               <div className="border p-2 pt-4 w-auto border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="bg-[#525252] rounded-xl text-[#525252] w-1/2 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
+                <p className="bg-[#b7b7b7] rounded-xl text-[#b7b7b7] w-1/2 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
                   <svg width={14} height={14} viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <rect width={14} height={14} fill="url(#pattern0_2001_60)" />
                     <defs>
@@ -264,12 +264,12 @@ function Dashboard() {
                   <span className="bg-white rounded-2xl w-8 h-4 flex items-center justify-center">12</span>
                 </p>
 
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">Manage Projects</h1>
+                <h1 className="text-[#ffff] font-semibold text-[24px]">Manage Projects</h1>
 
               </div>
 
               <div className="border p-2 pt-4  w-auto border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="bg-[#e154549a] rounded-xl text-[#525252] w-1/2 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
+                <p className="bg-[#e154549a] rounded-xl text-[#b7b7b7] w-1/2 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
                   <svg width={14} height={14} viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <rect width={14} height={14} fill="url(#pattern0_2001_53)" />
                     <defs>
@@ -290,12 +290,12 @@ function Dashboard() {
                   <span className="bg-white rounded-2xl w-8 h-4 flex items-center justify-center">12</span>
                 </p>
 
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">Accept</h1>
+                <h1 className="text-[#ffff] font-semibold text-[24px]">Accept</h1>
 
               </div>
 
               <div className="border p-2 pt-4  w-auto border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="bg-[#6c500ab1] rounded-xl text-[#525252] w-1/2 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
+                <p className="bg-[#6c500ab1] rounded-xl text-[#b7b7b7] w-1/2 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
                   <svg width={13} height={12} viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <rect width={13} height={12} fill="url(#pattern0_2001_46)" />
                     <defs>
@@ -313,7 +313,7 @@ function Dashboard() {
                   <span className="bg-white rounded-2xl w-8 h-4 flex items-center justify-center">16</span>
                 </p>
 
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">Activate</h1>
+                <h1 className="text-[#ffff] font-semibold text-[24px]">Activate</h1>
 
               </div>
 
