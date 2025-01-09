@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {AlignJustify, X, x} from 'lucide-react'
+import {AlignJustify, X} from 'lucide-react'
 function Siderbar() {
   const [sideBar, setSideBar] = useState("-translate-x-full")
 
