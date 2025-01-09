@@ -19,8 +19,8 @@ function Dashboard() {
 
 
   return (
-    <div className="w-full border border-[#222222]  rounded-2xl">
-      <div className="w-[100%] flex flex-1 bg-[#ffffff0e] rounded-2xl backdrop-blur-xl">
+    <div className="w-full border border-[#303030]  rounded-2xl">
+      <div className="w-[100%] flex flex-1 bg-[#ababab0e] rounded-2xl backdrop-blur-xl">
         <aside id="separator-sidebar" className={`w-[25%]`} aria-label="Sidebar">
 
           <div className="h-full px-3 py-4 overflow-y-auto space-y-3">
@@ -135,7 +135,7 @@ function Dashboard() {
           </div>
 
         </aside>
-        <div className="w-[1px] left-56 h-full absolute bg-[#313131] "></div>
+        <div className="w-[1px] left-56 h-full absolute bg-white/5 backdrop-blur-xl "></div>
         <div className="w-full mt-2 p-2 ">
           <nav className="flex justify-between items-center">
             <h1 className="text-[#B0B0B0] font-semibold text-[14px]">Overview</h1>
@@ -214,31 +214,31 @@ function Dashboard() {
             </div>
 
             <div className="flex justify-between mt-10 items-center">
-              <div className="flex gap-5">
+              <div className="flex gap-5 bg-transparent p-1  border rounded-lg border-[#222222]">
                 <div className="flex gap-2 items-center bg-[#262626] p-1 px-4 rounded-md">
                   <Layers className='w-3' />
                   <h1 className="text-[#B0B0B0] font-semibold text-[13px]">Task</h1>
                 </div>
-                <div className="flex gap-2 items-center bg-[#262626] p-1 px-4 rounded-md">
+                <div className="flex gap-2 items-center  p-1 px-4 rounded-md">
                   <Calendar className='w-3' />
                   <h1 className="text-[#B0B0B0] font-semibold text-[13px]">Calender</h1>
                 </div>
-                <div className="flex gap-2 items-center bg-[#262626] p-1 px-4 rounded-md">
+                <div className="flex gap-2 items-center  p-1 px-4 rounded-md">
                   <AlignCenter className='w-3' />
                   <h1 className="text-[#B0B0B0] font-semibold text-[13px]">Timeline</h1>
                 </div>
               </div>
               <div className="flex gap-5">
                 <div className="flex gap-2 items-center bg-[#262626] p-1 px-4 rounded-md">
-                  <Filter className='w-3' />
+                  <Filter className='w-4' />
 
                 </div>
                 <div className="flex gap-2 items-center bg-[#262626] p-1 px-4 rounded-md">
-                  <ArrowDownNarrowWide className='w-3' />
+                  <ArrowDownNarrowWide className='w-4' />
 
                 </div>
                 <div className="flex gap-2 items-center bg-[#262626] p-1 px-4 rounded-md">
-                  <Search className='w-3' />
+                  <Search className='w-4' />
 
                 </div>
               </div>
@@ -248,7 +248,7 @@ function Dashboard() {
             <div className="grid grid-cols-1 mt-16 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
               <div className="border p-2 pt-4 w-auto border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="bg-[#525252] rounded-xl text-[#525252] w-7/12 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
+                <p className="bg-[#525252] rounded-xl text-[#525252] w-1/2 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
                   <svg width={14} height={14} viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <rect width={14} height={14} fill="url(#pattern0_2001_60)" />
                     <defs>
@@ -264,12 +264,12 @@ function Dashboard() {
                   <span className="bg-white rounded-2xl w-8 h-4 flex items-center justify-center">12</span>
                 </p>
 
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">24</h1>
+                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">Manage Projects</h1>
 
               </div>
 
               <div className="border p-2 pt-4  w-auto border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="bg-[#e154549a] rounded-xl text-[#525252] w-7/12 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
+                <p className="bg-[#e154549a] rounded-xl text-[#525252] w-1/2 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
                   <svg width={14} height={14} viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <rect width={14} height={14} fill="url(#pattern0_2001_53)" />
                     <defs>
@@ -286,16 +286,16 @@ function Dashboard() {
 
 
 
-                  <span className="text-white">Active Projects</span>
+                  <span className="text-white">Pending</span>
                   <span className="bg-white rounded-2xl w-8 h-4 flex items-center justify-center">12</span>
                 </p>
 
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">24</h1>
+                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">Accept</h1>
 
               </div>
 
               <div className="border p-2 pt-4  w-auto border-[#222222] space-y-5 rounded-md bg-transparent">
-                <p className="bg-[#6c500ab1] rounded-xl text-[#525252] w-7/12 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
+                <p className="bg-[#6c500ab1] rounded-xl text-[#525252] w-1/2 p-1 bg- flex gap-2 items-center font-semibold text-[10px]">
                   <svg width={13} height={12} viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <rect width={13} height={12} fill="url(#pattern0_2001_46)" />
                     <defs>
@@ -309,11 +309,11 @@ function Dashboard() {
 
 
 
-                  <span className="text-white">Active Projects</span>
+                  <span className="text-white">Completed</span>
                   <span className="bg-white rounded-2xl w-8 h-4 flex items-center justify-center">16</span>
                 </p>
 
-                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">24</h1>
+                <h1 className="text-[#BFBFBF] font-semibold text-[24px]">Activate</h1>
 
               </div>
 
